@@ -1,0 +1,146 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9fbfd;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d3436;
+    padding: 15px 30px;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin: 0 10px;
+}
+
+.navbar-menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+    background-color: #636e72;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #6c5ce7, #74b9ff);
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Ticket Section */
+.tickets {
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tickets h2 {
+    text-align: center;
+    color: #2d3436;
+    margin-bottom: 20px;
+}
+
+/* Ticket Table */
+.ticket-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 0.9em;
+    margin: 20px 0;
+}
+
+.ticket-table th,
+.ticket-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.ticket-table th {
+    background-color: #6c5ce7;
+    color: white;
+    text-align: center;
+}
+
+.ticket-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.ticket-table tr:hover {
+    background-color: #dfe6e9;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.status.confirmed {
+    background-color: #00b894;
+}
+
+.status.pending {
+    background-color: #fdcb6e;
+}
+
+.status.canceled {
+    background-color: #d63031;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2d3436;
+    color: white;
+    font-size: 0.9em;
+}

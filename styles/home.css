@@ -1,0 +1,153 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://media.discordapp.net/attachments/909763979704930326/1310822645578727424/photo-1468234847176-28606331216a.png?ex=67469e38&is=67454cb8&hm=1c73ef201694731964b4e849dfe8eefa89e773402be23474dd1f06344d615e19&=&width=1800&height=888') no-repeat center center/cover;
+    color: #333;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2d3436; /* Deep Purple */
+    color: white;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin: 0 10px;
+}
+
+.navbar-menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+    background-color: #636e72;
+}
+
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background: linear-gradient(to right, #6a0dad, #8a2be2); /* Purple Gradient */
+    color: white;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content .btn {
+    background-color: #9b5de5; /* Vibrant Purple */
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content .btn:hover {
+    background-color: #7232bd; /* Darker Purple on Hover */
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Features Section */
+.features {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f3f1f5;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #6a0dad;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.feature {
+    max-width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.feature h3 {
+    color: #8a2be2; /* Purple Accent */
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #6a0dad; /* Deep Purple */
+    color: white;
+    margin-top: 2rem;
+}
+
+.social-links {
+    margin-top: 0.5rem;
+}
+
+.social-links img {
+    width: 24px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
